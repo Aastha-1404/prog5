@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: your-dockerhub-username/nodejs-app
+          images: aastha002/prog5
 
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v4
